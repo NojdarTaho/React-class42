@@ -1,7 +1,7 @@
-const Button = ({ category, key, onClick }) => {
+const Button = ({ category, setKey, onClick }) => {
   return (
     <button
-      key={key}
+      key={setKey}
       className="categories--item"
       onClick={() => onClick(category)}
     >

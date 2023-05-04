@@ -27,7 +27,7 @@ img {
   padding: 12px;
 }
 
-.categories--item-selected {
+.categories--item:focus {
   background-color: #bdbdc1;
 }
 
