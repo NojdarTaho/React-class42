@@ -4,8 +4,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Favourites from "./components/Favourites";
 import { FavouritesProvider } from "./context/FavouritesContext";
-import Categories from "./components/Product-categories";
-import Products from "./components/Products";
 
 const App = () => {
   return (
